@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+      font-family: 'Big Shoulders Stencil Text', cursive;color: rgb(8, 8, 8);
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(250, 247, 247); /* Fallback color */
+    background-color: rgb(255, 255, 255); /* Black w/opacity/see-through */
+    color: rgb(1, 3, 10);
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+      line-height: 2em;
+  }
+  
+  .btnn button{
+      background-color: rgb(10, 64, 241);
+      border-radius: 20px;
+       font-family: 'Big Shoulders Stencil Text', cursive;
+      color: black;
+  padding-left: 15px;
+      padding-right: 15px;	
+      
+  }
+  
+  .btnn button:hover{
+      background-color: rgb(43, 21, 236);
+      color: rgb(243, 7, 7);
+      transition: 0.5s;
+   box-shadow: 5px 5px 5px 5px black;
+  }
+  
+  a {
+      color: rgb(10, 10, 10);
+      text-decoration: none;
+  
+      
+  }
+  
+  a:hover{
+      color: mediumblue;
+  }
